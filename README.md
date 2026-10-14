@@ -34,7 +34,7 @@ I develop on Linux (Ubuntu/Debian), use Docker for local development and deploym
 ## Tools
 
 - [docker-backup-tool-rs](https://github.com/dreamoutbox/docker-backup-tool-rs) — Docker backup tool (Rust).
-- [my_config_cli](https://github.com/dreamoutbox/my_config_cli) — Go CLI to backup/restore config from Git (dotfiles-style).
+- [my_config_cli](https://github.com/dreamoutbox/my_config_cli) — Go CLI to backup/restore config from Git.
 - [rust_lldb_mcp](https://github.com/dreamoutbox/rust_lldb_mcp) — LLDB debugger MCP server (Rust).
 - [pgvisor](https://github.com/dreamoutbox/pgvisor) — Friendly PostgreSQL cluster supervisor with web dashboard (Rust).
 - [crane](https://github.com/dreamoutbox/crane) — CLI deploy tool driven by a single TOML config; deploys to VPS, manages DB, backups, firewall, and DNS.
@@ -44,7 +44,7 @@ I develop on Linux (Ubuntu/Debian), use Docker for local development and deploym
 
 ## Open-source contributions / Pull Requests
 
-- deadpool: https://github.com/deadpool-rs/deadpool/pull/477 — Fix: devcontainer startup, speed up container boot (move cargo-release and cargo-outdated to postCreateCommand) and add .dockerignore to reduce rebuilds.
+- deadpool: https://github.com/deadpool-rs/deadpool/pull/477 — Fix: devcontainer startup, speed up container boot (move cargo-release and cargo-outdated to postCreateCommand and add .dockerignore to reduce rebuilds).
 - deadpool: https://github.com/deadpool-rs/deadpool/pull/478 — Make `managed_reexports` macro export `QueueMode`.
 
 ---
@@ -54,7 +54,7 @@ I develop on Linux (Ubuntu/Debian), use Docker for local development and deploym
 - [rust-load-plugins](https://github.com/dreamoutbox/rust-load-plugins) — POC: runtime plugin loading (like Minecraft server plugins).
 - [try-firecracker](https://github.com/dreamoutbox/try-firecracker) — Experiments with AWS Firecracker.
 - [learn_rust_debugger](https://github.com/dreamoutbox/learn_rust_debugger) — Learning resources for Rust debugging.
-- [try-opendal](https://github.com/dreamoutbox/try-opendal) — Try OPendal for S3 and Dropbox.
+- [try-opendal](https://github.com/dreamoutbox/try-opendal) — Try Rust OpenDAL for S3 and Dropbox.
 - [linux-kernel-build](https://github.com/dreamoutbox/linux-kernel-build) — Build Linux kernel + busybox, test in QEMU, export ISO.
 - [try_caddy](https://github.com/dreamoutbox/try_caddy) — Reverse proxy experiments with Caddy.
 - [try-jenkins](https://github.com/dreamoutbox/try-jenkins) — Jenkins CI learning projects.
@@ -67,8 +67,9 @@ I develop on Linux (Ubuntu/Debian), use Docker for local development and deploym
 
 ## Contact / Collaboration
 
-If you'd like to collaborate or ask about any project, open an issue or reach out via GitHub. I'm always happy to discuss Rust, Go, deployment, or debugging workflows.
+If you'd like to collaborate or ask about any project, open an issue or reach out via GitHub. 
+I'm always happy to discuss Rust, Go, deployment, or debugging workflows.
 
 ---
 
-Thanks for stopping by — feel free to explore the repos above or drop a message on any project!
+Thanks for stopping by — feel free to explore the repos or drop a message on any project!
