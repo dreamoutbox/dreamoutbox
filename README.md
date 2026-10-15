@@ -14,7 +14,7 @@ I develop on Linux (Ubuntu/Debian), use Docker for local development and deploym
 
 ---
 
-## Projects (select)
+## Projects
 
 - [go-pos](https://github.com/dreamoutbox/go-pos) — Point of sale system in Go with stock management and sales reporting.
 - [theater-seat-booking](https://github.com/dreamoutbox/theater-seat-booking) — Theater booking system written in Rust; includes a worker for booking handling and Stripe payment/refund support.
@@ -22,7 +22,7 @@ I develop on Linux (Ubuntu/Debian), use Docker for local development and deploym
 - [rust-restaurant-system](https://github.com/dreamoutbox/rust-restaurant-system) — QR-based ordering for customers and a kitchen dashboard to manage order status.
 - [delivery-app](https://github.com/dreamoutbox/delivery-app) — Simple delivery app using Go and HTMX with dashboards for shop/rider/customer/admin.
 - [rust-playground-server](https://github.com/dreamoutbox/rust-playground-server) — Safe Rust playground server powered by AWS Firecracker MicroVMs.
-
+- [demo-launcher](https://github.com/dreamoutbox/demo-launcher) — Worker to launch showcase demo project.
 ---
 
 ## Libraries
