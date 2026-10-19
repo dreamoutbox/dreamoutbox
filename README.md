@@ -25,12 +25,6 @@ I develop on Linux (Ubuntu/Debian), use Docker for local development and deploym
 - [demo-launcher](https://github.com/dreamoutbox/demo-launcher) — Worker to launch showcase demo project.
 ---
 
-## Libraries
-
-- [crontext](https://github.com/dreamoutbox/crontext) — Human language → CRON syntax parser.
-
----
-
 ## Tools
 
 - [docker-backup-tool-rs](https://github.com/dreamoutbox/docker-backup-tool-rs) — Docker backup tool (Rust).
@@ -41,11 +35,16 @@ I develop on Linux (Ubuntu/Debian), use Docker for local development and deploym
 
 ---
 
-
 ## Open-source contributions / Pull Requests
 
 - deadpool: https://github.com/deadpool-rs/deadpool/pull/477 — Fix: devcontainer startup, speed up container boot (move cargo-release and cargo-outdated to postCreateCommand and add .dockerignore to reduce rebuilds).
 - deadpool: https://github.com/deadpool-rs/deadpool/pull/478 — Make `managed_reexports` macro export `QueueMode`.
+
+---
+
+## Libraries
+
+- [crontext](https://github.com/dreamoutbox/crontext) — Human language → CRON syntax parser.
 
 ---
 
