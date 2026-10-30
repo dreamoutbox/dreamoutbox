@@ -27,11 +27,13 @@ I develop on Linux (Ubuntu/Debian), use Docker for local development and deploym
 
 ## Tools
 
+- [crane](https://github.com/dreamoutbox/crane) — CLI deploy tool driven by a single TOML config; deploys to VPS, manages DB, backups, firewall, and DNS.
+- [pgvisor](https://github.com/dreamoutbox/pgvisor) — Friendly PostgreSQL cluster supervisor with web dashboard (Rust).
 - [docker-backup-tool-rs](https://github.com/dreamoutbox/docker-backup-tool-rs) — Docker backup tool (Rust).
 - [my_config_cli](https://github.com/dreamoutbox/my_config_cli) — Go CLI to backup/restore config from Git.
+- [dev-in-vps](https://github.com/dreamoutbox/dev-in-vps) — CLI to spin up VPS server for dev.
+- [json-log-parser](https://github.com/dreamoutbox/json-log-parser) — CLI for parsing verbose JSON logs using simple path syntax.
 - [rust_lldb_mcp](https://github.com/dreamoutbox/rust_lldb_mcp) — LLDB debugger MCP server (Rust).
-- [pgvisor](https://github.com/dreamoutbox/pgvisor) — Friendly PostgreSQL cluster supervisor with web dashboard (Rust).
-- [crane](https://github.com/dreamoutbox/crane) — CLI deploy tool driven by a single TOML config; deploys to VPS, manages DB, backups, firewall, and DNS.
 
 ---
 
@@ -51,7 +53,10 @@ I develop on Linux (Ubuntu/Debian), use Docker for local development and deploym
 ## Demos & Experiments
 
 - [rust-load-plugins](https://github.com/dreamoutbox/rust-load-plugins) — POC: runtime plugin loading (like Minecraft server plugins).
+- [tls-server-client](https://github.com/dreamoutbox/tls-server-client) — POC: demonstrating TLS communication between a server and client.
+- [k8s-go-retry-services](https://github.com/dreamoutbox/k8s-go-retry-services) — retry and exponential backoff demo between two services in Kubernetes.
 - [try-firecracker](https://github.com/dreamoutbox/try-firecracker) — Experiments with AWS Firecracker.
+- [docker-systemd-image](https://github.com/dreamoutbox/docker-systemd-image) — testing script with systemd usage in docker container.
 - [learn_rust_debugger](https://github.com/dreamoutbox/learn_rust_debugger) — Learning resources for Rust debugging.
 - [try-opendal](https://github.com/dreamoutbox/try-opendal) — Try Rust OpenDAL for S3 and Dropbox.
 - [linux-kernel-build](https://github.com/dreamoutbox/linux-kernel-build) — Build Linux kernel + busybox, test in QEMU, export ISO.
