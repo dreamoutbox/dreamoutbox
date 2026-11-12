@@ -5,10 +5,9 @@ I enjoy working on backend systems, developer tools, and small infrastructure pr
 
 I develop on Linux (Ubuntu/Debian), use Docker for local development and deployment, and prefer PostgreSQL for most projects.
 
-- 🔭 Currently building and learning: Rust, Go, and production-ready CI/CD for Rust projects
-- 🌱 Comfortable with: Go, PHP, Python, Java, JavaScript/TypeScript
-- 🛠️ Dev tools & infra: Git, Docker, Kubernetes (basic)
+- 🌱 Comfortable with: Rust, Go, Python, JavaScript/TypeScript, Java, PHP
 - 💻 Frontend: HTML, CSS, React, Vue
+- 🛠️ Dev tools & Infra: Git, Docker, Kubernetes
 - 🎮 Game dev: Created a game with Unity (C#)
 - 🧩 Interests: distributed systems, orchestration, dev tooling, safe systems programming
 
@@ -18,7 +17,7 @@ I develop on Linux (Ubuntu/Debian), use Docker for local development and deploym
 
 - [go-pos](https://github.com/dreamoutbox/go-pos) — Point of sale system in Go with stock management and sales reporting.
 - [theater-seat-booking](https://github.com/dreamoutbox/theater-seat-booking) — Theater booking system written in Rust; includes a worker for booking handling and Stripe payment/refund support.
-- [java-apartment-management-system](https://github.com/dreamoutbox/java-apartment-management-system) — Spring Boot system with separate views for landlord/manager/accountant/technician/tenant; invo[...] 
+ [java-apartment-management-system](https://github.com/dreamoutbox/java-apartment-management-system) — Spring Boot system with separate views for landlord/manager/accountant/technician/tenant; invoice/receipt generation with OpenPDF.
 - [rust-restaurant-system](https://github.com/dreamoutbox/rust-restaurant-system) — QR-based ordering for customers and a kitchen dashboard to manage order status.
 - [delivery-app](https://github.com/dreamoutbox/delivery-app) — Simple delivery app using Go and HTMX with dashboards for shop/rider/customer/admin.
 - [rust-playground-server](https://github.com/dreamoutbox/rust-playground-server) — Safe Rust playground server powered by AWS Firecracker MicroVMs.
@@ -39,7 +38,8 @@ I develop on Linux (Ubuntu/Debian), use Docker for local development and deploym
 
 ## Open-source contributions / Pull Requests
 
-- deadpool: https://github.com/deadpool-rs/deadpool/pull/477 — Fix: devcontainer startup, speed up container boot (move cargo-release and cargo-outdated to postCreateCommand and add .dockerignore to[...]
+- deadpool: https://github.com/deadpool-rs/deadpool/pull/477 — Fix: devcontainer startup, speed up container boot (move cargo-release and cargo-outdated to postCreateCommand and add .dockerignore to reduce rebuilds).
+
 - deadpool: https://github.com/deadpool-rs/deadpool/pull/478 — Make `managed_reexports` macro export `QueueMode`.
 
 ---
@@ -60,7 +60,7 @@ I develop on Linux (Ubuntu/Debian), use Docker for local development and deploym
 - [docker-systemd-image](https://github.com/dreamoutbox/docker-systemd-image) — Testing script that uses systemd inside a Docker container.
 - [try-headscale](https://github.com/dreamoutbox/try-headscale) — Experiments with self-hosting Headscale.
 - [ssh-port-forwarding-from-vps-to-local-test](https://github.com/dreamoutbox/ssh-port-forwarding-from-vps-to-local-test) — Port forwarding from a VPS to access services from a local machine.
-- [block-game-2](https://github.com/dreamoutbox/block-game-2) — Demo Rust Bevy voxel block game running at around 100 FPS in the browser with WebAssembly.
+- [block-game-2](https://github.com/dreamoutbox/block-game-2) — Demo Rust Bevy voxel block game running at around 100 FPS in the browser with WASM.
 - [learn_rust_debugger](https://github.com/dreamoutbox/learn_rust_debugger) — Learning resources for Rust debugging.
 - [try-opendal](https://github.com/dreamoutbox/try-opendal) — Try Rust OpenDAL for S3 and Dropbox.
 - [linux-kernel-build](https://github.com/dreamoutbox/linux-kernel-build) — Build Linux kernel + busybox, test in QEMU, export ISO.
