@@ -22,6 +22,8 @@ I develop on Linux (Ubuntu/Debian), use Docker for local development and deploym
 - [delivery-app](https://github.com/dreamoutbox/delivery-app) — Simple delivery app using Go and HTMX with dashboards for shop/rider/customer/admin.
 - [rust-playground-server](https://github.com/dreamoutbox/rust-playground-server) — Safe Rust playground server powered by AWS Firecracker MicroVMs.
 - [demo-launcher](https://github.com/dreamoutbox/demo-launcher) — Worker to launch showcase demo project.
+- [RustSpeak](https://github.com/dreamoutbox/rustspeak) - voice chat app in Rust.
+
 ---
 
 ## Tools
